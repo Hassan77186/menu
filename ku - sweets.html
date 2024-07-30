@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurand Name</title>
+
+    <link rel="stylesheet" href="style_ku - sweets.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="background">    
+        <img src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </div>
+    <div class="container main">
+        
+        <img src="pic/cover.jpg" id="cover">
+        <span id="title">
+            بخێرهاتی بۆ خارنگەها
+        </span>
+
+        <div id="food_bar">
+            <button class="food_button"onclick="window.location.href='ku - hookah.html';">
+                نارگیلە
+            </button>
+            <button class="food_button"onclick="window.location.href='ku - sweets.html';"style="background-color: gold;">
+                شریناهی
+            </button>
+            <button class="food_button"onclick="window.location.href='ku - drinks.html';" >
+                ڤەخوارن
+            </button>
+            <button class="food_button"onclick="window.location.href='ku.html';">
+                خوارن
+            </button>
+        </div>
+
+
+        <div id="foodlist">
+           <div class="food">
+            <img src="pic/sweets/cake.jpg">
+            <button onclick="showDiv()">كێک</button>
+           </div>
+           <div id="foodbox">
+            <div class="foodtitle">کێک</div>
+            <div class="foodtype">
+                <div class="foodinfo">
+                    کێکا شیری
+                    <br>
+                    3,000 IQD
+                </div>
+                <img src="pic/sweets/cake.jpg">
+            </div>
+            
+        </div>
+           <div class="food">
+            <img src="pic/sweets/pancake.jpg">
+            <button onclick="showDiv2()">مینی پان کێک</button>
+           </div>
+           <div id="foodbox2">
+            <div class="foodtitle">مینی پان کێک</div>
+            <div class="foodtype">
+                <div class="foodinfo">
+                    مینی پان کێک
+                    <br>
+                    4,500 IQD
+                </div>
+                <img src="pic/drinks/hotdrinks.jpg">
+            </div>
+            
+      
+        
+        </div>
+
+        </div>
+
+
+
+
+           
+
+
+
+
+        <span id="reklam">Developed By </span>
+        <a href="https://instagram.com" target="_blank" id="social">Hassan Ahmed Khayat</a>
+        
+    </div>
+
+</body>
+<script>
+    function showDiv() {
+        var x = 0;
+        div = document.getElementById('foodbox');
+    
+        
+        if(div.style.display === "block"){
+            div.style.display = "none";
+        }else{
+            div.style.display = "block";
+        }
+           
+        
+    }   
+    function showDiv2() {
+        var x = 0;
+        div = document.getElementById('foodbox2');
+    
+        
+        if(div.style.display === "block"){
+            div.style.display = "none";
+        }else{
+            div.style.display = "block";
+        }
+           
+        
+    }   
+    function showDiv3() {
+        var x = 0;
+        div = document.getElementById('foodbox3');
+    
+        
+        if(div.style.display === "block"){
+            div.style.display = "none";
+        }else{
+            div.style.display = "block";
+        }
+           
+        
+    }   
+    function showDiv4() {
+        var x = 0;
+        div = document.getElementById('foodbox4');
+    
+        
+        if(div.style.display === "block"){
+            div.style.display = "none";
+        }else{
+            div.style.display = "block";
+        }
+           
+        
+    }   
+        </script>
+
+</html>

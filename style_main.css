@@ -1,0 +1,168 @@
+@font-face { font-family: kurdishfont; src: url('UniMahanbaxan.ttf'); }
+body{
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    max-width: 12000px;
+    width: 100%;
+    height: 100%;
+    z-index: -10000;
+}
+.background img{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    max-width: 12000px;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+div.main{
+    
+    display: block;
+    background-color: black;
+    box-shadow: 2px 2px 20px 2px black;
+    border-radius: 20px;
+    max-height: 1000px;
+    max-width: 425px;
+    margin-inline: auto;
+    padding: 10px;
+}
+
+#title{
+display:block;
+font-family: "kurdishfont";
+text-align: center;
+color: white;
+font-size: 35px;
+
+}
+
+
+#time{
+    font-family: "kurdishfont";
+    font-size: 25px;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+#lang_text{
+    display:block;
+    font-family: "kurdishfont";
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+#lang_bar{
+    display: block;
+    margin-block:25px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.lang_button{
+    font-size: 20px;
+    font-family: "kurdishfont";
+    border: 1px solid white;
+    border-radius: 10px;
+    color:white;
+    background: none;
+    margin-right: 10px;
+    padding: 5px;
+    width:75px;
+    transition: width 0.5s;
+}
+
+.lang_button:hover{
+    box-shadow: 2px 2px 20px 2px white;
+    width: 100px;
+    cursor: pointer;
+}
+
+#reklam{
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+a#social{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+
+#cover{
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-size: cover;
+width: 100%;
+max-width: 500px;
+height: 100px;
+object-fit: cover;
+}
+
+
+
+#wifi{
+display: block;
+color: white;
+text-align: center;
+;
+}
+#logowifi{ 
+    display: block;
+    width: 20px;
+    margin-inline: auto;
+}
+
+#socialtitle{
+    font-family: "kurdishfont";
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin-top: 50px;
+   text-align: center;
+}
+
+#socialmedia{
+    display: block;
+    margin-block: 10px;
+    text-align: center;
+}
+
+#socialbutton{
+background:none;
+border: none;
+width: 50px;
+transition: width 0.5s;
+}
+
+#socialbutton img{
+width: 30px;
+    }
+
+#socialbutton:hover{
+width: 60px;
+cursor: pointer;
+}
+
+iframe{
+    display: block;
+    max-width: 300px;
+    margin-inline: auto;
+    border-radius: 10px;
+}
+
+
